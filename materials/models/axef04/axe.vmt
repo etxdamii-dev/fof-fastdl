@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-    "$baseTexture" "models/axef03/axe_d"
+    "$baseTexture" "models/axef04/axe_d"
     "$bumpmap" "models/weapons/axe_n"
 
     "$envmapmask" "models/weapons/axe_spec"

@@ -1,0 +1,65 @@
+WeaponData
+{
+    // Ultra Zombie source-level first-person hands override.
+    // Put this as a loose file in fof/scripts/ AND FastDL/scripts/.
+    // IMPORTANT: client must fully restart the game after downloading/copying scripts.
+
+    "printname" ""
+    "viewmodel" "models/fof_skins_v3/players/infected/arms/infected_fists.mdl"
+    "playermodel" ""
+    "anim_prefix" "crowbar"
+    "bucket" "0"
+    "bucket_position" "2"
+    "clip_size" "-1"
+    "primary_ammo" "None"
+    "weight" "1"
+    "item_flags" "0"
+
+    SoundData
+    {
+        "single_shot" "Weapon_Fists.Miss"
+        "melee_hit" "Weapon_Fists.Hit"
+        "melee_hit_world" "Weapon_Fists.HitWorld"
+        "melee_miss" "Weapon_Fists.Miss"
+    }
+
+    TextureData
+    {
+        "weapon"
+        {
+            "font" "WeaponIcons"
+            "character" "O"
+        }
+        "weapon_s"
+        {
+            "font" "WeaponIconsSelected"
+            "character" "O"
+        }
+        "ammo"
+        {
+            "font" "WeaponIcons"
+            "character" "O"
+        }
+        "ammo2"
+        {
+            "file" "sprites/640hud7"
+            "x" "48"
+            "y" "72"
+            "width" "24"
+            "height" "24"
+        }
+        "crosshair"
+        {
+            "font" "Crosshairs"
+            "character" "Q"
+        }
+        "autoaim"
+        {
+            "file" "sprites/crosshairs"
+            "x" "0"
+            "y" "48"
+            "width" "24"
+            "height" "24"
+        }
+    }
+}

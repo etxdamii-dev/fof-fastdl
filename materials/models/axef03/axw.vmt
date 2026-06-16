@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-    "$baseTexture" "models/axefde/axw"
+    "$baseTexture" "models/axef03/axw"
 
     "$detail" "models/weapons/axe_d_detail"
     "$detailscale" "1"

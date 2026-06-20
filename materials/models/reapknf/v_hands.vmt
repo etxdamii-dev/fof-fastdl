@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+    "$baseTexture" "models\weapons\v_hands"
+    "$bumpmap" "models\weapons\v_hands_n"
+    "$halflambert" 1
+    "$nodecal" "1"
+    "$model" "1"
+    "$phong" "1"
+    "$phongboost" ".01"
+    "$phongexponent" .5
+    "$phongfresnelranges" "[3 5 8]"
+    "$rimlight" "1"
+    "$rimlightexponent" "0.01"
+    "$rimlightboost" "0.03"
+}

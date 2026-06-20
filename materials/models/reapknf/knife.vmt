@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	$basetexture models/reapknf/knife
+	$bumpmap models/reapknf/knife_n
+
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$envmap" "cubemaps/cubemap_gold001"
+	// "$envmaptint" "[ .8 .8 .8 ]"
+	// "$envmapconstrast" "1"
+	// $envmapsaturation .25
+
+	"$phong"     "1"
+	"$phongexponent"  "56"
+	"$phongboost"   "8"
+	"$phongfresnelranges"   "[1 1 1]"
+	"$phongalbedotint" "1"
+
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "512"	
+	// "$rimexponent" "512"
+	"$rimlightboost" ".1"
+}
